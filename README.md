@@ -1,10 +1,7 @@
-# 2D-Lid-Driven-Cavity-CFD
-A 2D Lid-Driven Cavity Navier-Stokes fluid solver written from scratch in Python for CFD code validation.
 # 2D Lid-Driven Cavity CFD Solver from Scratch
-
 A Python-based Computational Fluid Dynamics (CFD) solver for the classic **2D Lid-Driven Cavity** benchmark problem. This project implements the **Stream Function-Vorticity ($\psi-\omega$) formulation** using finite difference numerical discretization.
 
-## 🚀 Project Overview
+## Project Overview
 The lid-driven cavity is an industry-standard benchmark used to test and validate incompressible Navier-Stokes solvers. The simulation models a square container filled with fluid where three walls remain perfectly static (no-slip condition), while the top wall (the lid) moves horizontally at a constant velocity $U$. This movement drags the fluid along, generating a dominant primary vortex at the center of the cavity.
 
 ### Key Technical Features
