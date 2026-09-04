@@ -12,7 +12,7 @@ The lid-driven cavity is an industry-standard benchmark used to test and validat
 
 ---
 
-## 📐 Governing Physics Equations
+## Governing Physics Equations
 
 Instead of using primitive variables ($u, v, p$), this solver transforms the incompressible Navier-Stokes equations into two continuous operations:
 
@@ -27,7 +27,7 @@ $$u = \frac{\partial \psi}{\partial y}, \quad v = -\frac{\partial \psi}{\partial
 
 ---
 
-## 📊 Simulated Results
+## Simulated Results
 
 ### Fluid Vorticity Profile
 The generated contour lines track the pathways of the fluid. The core of the vortex is clearly formed in the upper-right quadrant due to the convective momentum transfer from the moving lid.
