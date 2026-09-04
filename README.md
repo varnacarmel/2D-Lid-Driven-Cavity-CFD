@@ -36,22 +36,3 @@ $$u = \frac{\partial \psi}{\partial y}, \quad v = -\frac{\partial \psi}{\partial
 The generated contour lines track the pathways of the fluid. The core of the vortex is clearly formed in the upper-right quadrant due to the convective momentum transfer from the moving lid.
 
 ![Fluid Vortex Path](cavity_vortex_result.png)
-
----
-
-## 💻 How to Run the Solver
-
-### 1. Install Prerequisites
-Ensure you have Python 3 and the necessary mathematical dependencies installed:
-```bash
-pip install numpy matplotlib
-```
-
-### 2. Execute Code
-Clone this repository or download the files, and run the calculation script from your command prompt:
-```bash
-python cavity_solver.py
-```
-
-## 🤝 Verification & Future Enhancements
-To confirm solver reliability, the output results are configured for validation checks against historic benchmark matrices from **Ghia, Ghia, and Shin (1982)**. Next developmental updates will expand the script to utilize a **Staggered MAC Grid** layout to support primitive variable tracking.
